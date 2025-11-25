@@ -8,9 +8,10 @@ hidden = [
   "vite.config.js",
   ".gitignore",
 ]
+modules = ["vue-node-20", "nodejs-20", "web", "nix"]
 
 [nix]
-channel = "stable-22_11"
+channel = "stable-25_05"
 
 [env]
 PATH = "$REPL_HOME/.config/npm/node_global/bin:$REPL_HOME/node_modules/.bin"
@@ -45,3 +46,6 @@ publicDir = "dist"
 localPort = 5173
 externalPort = 80
 exposeLocalhost = true
+
+[agent]
+expertMode = true
