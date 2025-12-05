@@ -1,2 +1,2 @@
 export const BASE_URL =
-  "https://maria-be.pangju.work";
+  "http://47.99.174.176:3001";
